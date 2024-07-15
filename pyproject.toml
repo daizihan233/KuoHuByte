@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "avilla-core>=1.0.0a26",
     "avilla-console>=0.2.0",
+    "graia-saya>=0.0.19",
 ]
 requires-python = ">=3.10.0"
 readme = "README.md"

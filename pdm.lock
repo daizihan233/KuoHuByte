@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:faa22601bb97823c4bdaf06dabfb3d8ed49bbedfde80f8e7cd2b2614b44b438b"
+content_hash = "sha256:fcee7e446e2e93125ffab2f26e13e6dddea6096ae2b419da06434d7916e1f434"
 
 [[package]]
 name = "avilla-console"
@@ -92,6 +92,20 @@ dependencies = [
 files = [
     {file = "graia_broadcast-0.23.5-py3-none-any.whl", hash = "sha256:5f294d1e929a5664d3e0d11f7d82bca5ba6939c0a132a86a72f69c24221b20db"},
     {file = "graia_broadcast-0.23.5.tar.gz", hash = "sha256:4be8e7f00a177c734cec722f808d5fa9e8b157d2abe06c97f93cd7b3009af620"},
+]
+
+[[package]]
+name = "graia-saya"
+version = "0.0.19"
+requires_python = "<4.0,>=3.8"
+summary = "a modular implementation with modern design and injection"
+groups = ["default"]
+dependencies = [
+    "loguru<1.0,>=0.6.0",
+]
+files = [
+    {file = "graia_saya-0.0.19-py3-none-any.whl", hash = "sha256:98780de650a01ddafbbbb4209250e1096022dd8c9d589241f9c24cf674fab758"},
+    {file = "graia_saya-0.0.19.tar.gz", hash = "sha256:78211051b0a9e496f566cbad9c0d248edcdb31275835cf4ae1e6e0f611dc15cc"},
 ]
 
 [[package]]
